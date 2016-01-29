@@ -1,3 +1,5 @@
+RGBD evaluation tools forked from TUM
+
 
 作者：李睿豪
 
@@ -23,6 +25,6 @@
 	3、python associate_rgb_time.py rgb.txt depth.txt --max_difference 0.02 > associate.txt
 		关联深度图像和rgb图像,保存rgb和depth的timestamp，便于读取图像以及和groundtruth比较
 	
-	4、python change2index.py（按照1,2,3……编号，但是和groundtruth的时间序列对不上），应该自己从associate.txt里面读取图像，进行VO。
+	#4、python change2index.py（按照1,2,3……编号，但是和groundtruth的时间序列对不上），应该自己从associate.txt里面读取图像，进行VO。
 	
 
